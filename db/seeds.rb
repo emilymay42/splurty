@@ -5,6 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-10.times do |x|
-  Quote.create(saying: "This is test saying #{x}", author: "Test Author #{x}")
-end
+
+  Quote.create(saying: "Where there is love, there is life.", author: "Mahatma Gandhi")
+  Quote.create(saying: "I sustain myself with the love of family.", author: "Maya Angelou")
+  Quote.create(saying: "At the touch of love, everyone becomes a poet.", author: "Plato")
+  Quote.create(saying: "Peace, like charity, begins at home.", author: "Franklin D. Roosevelt")
