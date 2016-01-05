@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+10.times do |x|
+  Quote.create(saying: "This is test saying #{x}", author: "Test Author #{x}")
+end
